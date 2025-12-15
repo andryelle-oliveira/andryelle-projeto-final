@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Login - Mundo Animal</title>
+
+    <!-- Ícones Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <style>
+        body {
+            font-family: Arial;
+            background: #f5f7fa;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Container geral */
+        .login-container {
+            background: white;
+            width: 350px;
+            padding: 25px;
+            margin-top: 50px;
+            border-radius: 12px;
+            box-shadow: 0 0 10px #ccc;
+            text-align: center;
+        }
+
+        .logo {
+            width: 120px;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            color: #1b3a57;
+            margin-bottom: 10px;
+        }
+
+        input {
+            width: 90%;
+            padding: 10px;
+            margin: 8px 0;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+        }
+
+        button {
+            width: 90%;
+            padding: 12px;
+            background: #1b3a57;
+            color: white;
+            font-size: 17px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background: #244d74;
+        }
+
+        .social-login {
+            margin: 15px 0;
+        }
+
+        .social-login i {
+            font-size: 30px;
+            margin: 0 10px;
+            cursor: pointer;
+            color: #1b3a57;
+        }
+
+        .links {
+            margin-top: 15px;
+        }
+
+        .links a {
+            color: #1b3a57;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        footer {
+            background: #1b3a57;
+            color: white;
+            padding: 15px;
+            width: 100%;
+            text-align: center;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- MENSAGEM DE BOAS-VINDAS -->
+    <h1 style="margin-top: 25px; color:#1b3a57;">Bem-vindo ao Mundo Animal 🐾</h1>
+
+    <div class="login-container">
+
+        <!-- LOGO DO USUÁRIO -->
+        <img src="logo-mundo-animal.png" class="logo" alt="Logo Mundo Animal">
+
+        <h2>Entrar</h2>
+
+        <form>
+            <input type="email" placeholder="E-mail" required>
+            <input type="password" placeholder="Senha" required>
+            <button type="submit">Acessar</button>
+        </form>
+
+        <!-- LOGIN COM REDES SOCIAIS -->
+        <div class="social-login">
+            <p>Ou entre com:</p>
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-google"></i>
+        </div>
+
+        <!-- LINKS DE AJUDA -->
+        <div class="links">
+            <a href="#">Recuperar senha</a>
+            <a href="#">Criar novo usuário</a>
+        </div>
+
+    </div>
+
+    <!-- RODAPÉ -->
+    <footer>
+        © 2025 Mundo Animal — Todos os direitos reservados
+    </footer>
+
+</body>
+</html>
