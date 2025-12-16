@@ -1,140 +1,79 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <title>Login - Mundo Animal</title>
+  <meta charset="UTF-8">
+  <title>Login - Mundo Animal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Ícones Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
-    <style>
-        body {
-            font-family: Arial;
-            background: #f5f7fa;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin: 0;
-            padding: 0;
-        }
-
-        /* Container geral */
-        .login-container {
-            background: white;
-            width: 350px;
-            padding: 25px;
-            margin-top: 50px;
-            border-radius: 12px;
-            box-shadow: 0 0 10px #ccc;
-            text-align: center;
-        }
-
-        .logo {
-            width: 120px;
-            margin-bottom: 10px;
-        }
-
-        h2 {
-            color: #1b3a57;
-            margin-bottom: 10px;
-        }
-
-        input {
-            width: 90%;
-            padding: 10px;
-            margin: 8px 0;
-            border-radius: 8px;
-            border: 1px solid #ccc;
-            font-size: 16px;
-        }
-
-        button {
-            width: 90%;
-            padding: 12px;
-            background: #1b3a57;
-            color: white;
-            font-size: 17px;
-            border: none;
-            border-radius: 8px;
-            cursor: pointer;
-            margin-top: 10px;
-        }
-
-        button:hover {
-            background: #244d74;
-        }
-
-        .social-login {
-            margin: 15px 0;
-        }
-
-        .social-login i {
-            font-size: 30px;
-            margin: 0 10px;
-            cursor: pointer;
-            color: #1b3a57;
-        }
-
-        .links {
-            margin-top: 15px;
-        }
-
-        .links a {
-            color: #1b3a57;
-            text-decoration: none;
-            display: block;
-            margin-bottom: 5px;
-        }
-
-        footer {
-            background: #1b3a57;
-            color: white;
-            padding: 15px;
-            width: 100%;
-            text-align: center;
-            margin-top: 30px;
-        }
-    </style>
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-    <!-- MENSAGEM DE BOAS-VINDAS -->
-    <h1 style="margin-top: 25px; color:#1b3a57;">Bem-vindo ao Mundo Animal 🐾</h1>
+  <!-- MENU -->
+  <nav>
+    <a href="index.html">Início</a>
+    <a href="animais.html">Animais</a>
+    <a href="curiosidades.html">Curiosidades</a>
+    <a href="sobre.html">Sobre</a>
+    <a href="contato.html">Contato</a>
+    <a href="login.html">Login</a>
+  </nav>
 
-    <div class="login-container">
+  <!-- CONTEÚDO -->
+  <h1>Entrar no Mundo Animal 🐾</h1>
+  <p>Acesse sua conta para continuar</p>
 
-        <!-- LOGO DO USUÁRIO -->
-        <img src="logo-mundo-animal.png" class="logo" alt="Logo Mundo Animal">
+  <!-- FORMULÁRIO LOGIN -->
+  <form onsubmit="login(); return false;">
+    <input type="email" id="email" placeholder="E-mail" required>
+    <input type="password" id="senha" placeholder="Senha" required>
 
-        <h2>Entrar</h2>
+    <button type="submit" class="btn">Entrar</button>
+  </form>
 
-        <form>
-            <input type="email" placeholder="E-mail" required>
-            <input type="password" placeholder="Senha" required>
-            <button type="submit">Acessar</button>
-        </form>
+  <!-- REDES SOCIAIS -->
+  <h3>Ou entre com:</h3>
 
-        <!-- LOGIN COM REDES SOCIAIS -->
-        <div class="social-login">
-            <p>Ou entre com:</p>
-            <i class="fab fa-facebook"></i>
-            <i class="fab fa-instagram"></i>
-            <i class="fab fa-google"></i>
-        </div>
+  <button class="btn" onclick="loginSocial('Instagram')">Instagram</button>
+  <button class="btn" onclick="loginSocial('Facebook')">Facebook</button>
+  <button class="btn" onclick="loginSocial('Google')">Google</button>
 
-        <!-- LINKS DE AJUDA -->
-        <div class="links">
-            <a href="#">Recuperar senha</a>
-            <a href="#">Criar novo usuário</a>
-        </div>
+  <!-- BOTÃO VOLTAR -->
+  <br><br>
+  <button class="btn" onclick="voltarPagina()">Voltar</button>
+
+  <!-- RODAPÉ -->
+  <footer>
+    <div class="footer-content">
+
+      <div class="footer-section">
+        <h3>Mundo Animal</h3>
+        <p>Curiosidades e informações sobre o reino animal.</p>
+      </div>
+
+      <div class="footer-section">
+        <h4>Menu</h4>
+        <a href="index.html">Início</a><br>
+        <a href="animais.html">Animais</a><br>
+        <a href="curiosidades.html">Curiosidades</a><br>
+        <a href="sobre.html">Sobre</a>
+      </div>
+
+      <div class="footer-section">
+        <h4>Redes Sociais</h4>
+        <a href="#">Instagram</a><br>
+        <a href="#">Facebook</a><br>
+        <a href="#">YouTube</a>
+      </div>
 
     </div>
 
-    <!-- RODAPÉ -->
-    <footer>
-        © 2025 Mundo Animal — Todos os direitos reservados
-    </footer>
+    <p class="copy">© 2025 Mundo Animal</p>
+  </footer>
 
+  <!-- JAVASCRIPT -->
+  <script src="js/script.js"></script>
 </body>
 </html>

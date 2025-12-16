@@ -1,0 +1,104 @@
+/* ===== RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== CORPO ===== */
+body {
+  font-family: Arial, sans-serif;
+  background: #eef2f5;
+  color: #333;
+  padding: 20px;
+}
+
+/* ===== MENU ===== */
+nav {
+  background: #ffffff;
+  padding: 15px 20px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+  margin-right: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #1b3a57;
+}
+
+nav a:hover {
+  color: #2a6fa8;
+  text-decoration: underline;
+}
+
+/* ===== TÍTULOS ===== */
+h1, h2, h3, h4 {
+  color: #1b3a57;
+  margin-bottom: 10px;
+}
+
+/* ===== TEXTO ===== */
+p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+/* ===== IMAGENS ===== */
+img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin: 15px 0;
+}
+
+/* ===== BOTÃO ===== */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #1b3a57;
+  color: #ffffff;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: #244d74;
+}
+
+/* ===== RODAPÉ ===== */
+footer {
+  background: #1b3a57;
+  color: white;
+  padding: 25px;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  width: 30%;
+  min-width: 200px;
+}
+
+footer a {
+  color: #b8dbff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.copy {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+}
