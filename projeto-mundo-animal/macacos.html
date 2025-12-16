@@ -3,28 +3,53 @@
 <head>
   <meta charset="UTF-8">
   <title>Macacos - Mundo Animal</title>
-  <link rel="stylesheet" href="../css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
 <nav>
-  <a href="../index.html">Início</a>
+  <a href="index.html">Início</a>
   <a href="animais.html">Animais</a>
+  <a href="curiosidades.html">Curiosidades</a>
+  <a href="sobre.html">Sobre</a>
+  <a href="contato.html">Contato</a>
+  <a href="login.html">Login</a>
 </nav>
 
-<h1>Macacos 🐒</h1>
+<main class="conteudo">
+  <h1>Macacos 🐒</h1>
 
-<img src="../img/macaco.png">
+  <p>
+    Os macacos são animais inteligentes e sociáveis,
+    conhecidos por viverem em grupos e utilizarem ferramentas.
+  </p>
 
-<p>
-Macacos são inteligentes e utilizam ferramentas para conseguir alimentos.
-</p>
+  <button class="btn" onclick="voltarPagina()">Voltar</button>
+</main>
 
-<button class="btn" onclick="voltarPagina()">Voltar</button>
+<footer>
+  <div class="footer-content">
+    <div class="footer-section">
+      <h3>Mundo Animal</h3>
+      <p>Curiosidades sobre o reino animal.</p>
+    </div>
+    <div class="footer-section">
+      <h4>Menu</h4>
+      <a href="index.html">Início</a><br>
+      <a href="animais.html">Animais</a>
+    </div>
+    <div class="footer-section">
+      <h4>Redes Sociais</h4>
+      <a href="#">Instagram</a><br>
+      <a href="#">Facebook</a>
+    </div>
+  </div>
+  <p class="copy">© 2025 Mundo Animal</p>
+</footer>
 
-<footer>© 2025 Mundo Animal</footer>
-
-<script src="../js/script.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>

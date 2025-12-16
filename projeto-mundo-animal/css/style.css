@@ -1,80 +1,68 @@
-/* ===== RESET ===== */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* ===== CORPO ===== */
 body {
   font-family: Arial, sans-serif;
   background: #eef2f5;
   color: #333;
-  padding: 20px;
 }
 
-/* ===== MENU ===== */
 nav {
-  background: #ffffff;
-  padding: 15px 20px;
-  border-radius: 10px;
-  margin-bottom: 25px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background: #1b3a57;
+  padding: 15px;
 }
 
 nav a {
+  color: #fff;
   margin-right: 15px;
-  font-weight: bold;
   text-decoration: none;
-  color: #1b3a57;
+  font-weight: bold;
 }
 
 nav a:hover {
-  color: #2a6fa8;
   text-decoration: underline;
 }
 
-/* ===== TÍTULOS ===== */
-h1, h2, h3, h4 {
-  color: #1b3a57;
-  margin-bottom: 10px;
+main {
+  padding: 30px;
 }
 
-/* ===== TEXTO ===== */
+h1 {
+  color: #1b3a57;
+  margin-bottom: 15px;
+}
+
 p {
   margin-bottom: 15px;
-  line-height: 1.6;
 }
 
-/* ===== IMAGENS ===== */
 img {
-  max-width: 100%;
+  max-width: 300px;
   border-radius: 10px;
   margin: 15px 0;
 }
 
-/* ===== BOTÃO ===== */
 .btn {
-  display: inline-block;
   padding: 10px 20px;
   background: #1b3a57;
-  color: #ffffff;
+  color: white;
+  border: none;
   border-radius: 8px;
-  text-decoration: none;
-  font-weight: bold;
+  cursor: pointer;
 }
 
 .btn:hover {
   background: #244d74;
 }
 
-/* ===== RODAPÉ ===== */
 footer {
   background: #1b3a57;
   color: white;
   padding: 25px;
   margin-top: 40px;
-  border-radius: 10px;
 }
 
 .footer-content {
@@ -93,12 +81,54 @@ footer a {
   text-decoration: none;
 }
 
-footer a:hover {
-  text-decoration: underline;
-}
-
 .copy {
   text-align: center;
   margin-top: 15px;
-  font-size: 14px;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.card {
+  background: #1b3a57;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.card:hover {
+  background: #244d74;
+}
+
+input {
+  padding: 10px;
+  width: 250px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.lista-curiosidades {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.lista-curiosidades li {
+  background: #1b3a57;
+  color: white;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.img-animal {
+  max-width: 300px;
+  display: block;
+  margin: 20px auto;
+  border-radius: 15px;
 }

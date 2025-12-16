@@ -3,77 +3,35 @@
 <head>
   <meta charset="UTF-8">
   <title>Login - Mundo Animal</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- CSS -->
   <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
 
-  <!-- MENU -->
-  <nav>
-    <a href="index.html">Início</a>
-    <a href="animais.html">Animais</a>
-    <a href="curiosidades.html">Curiosidades</a>
-    <a href="sobre.html">Sobre</a>
-    <a href="contato.html">Contato</a>
-    <a href="login.html">Login</a>
-  </nav>
+<nav>
+  <a href="index.html">Início</a>
+  <a href="animais.html">Animais</a>
+  <a href="curiosidades.html">Curiosidades</a>
+  <a href="sobre.html">Sobre</a>
+  <a href="contato.html">Contato</a>
+</nav>
 
-  <!-- CONTEÚDO -->
-  <h1>Entrar no Mundo Animal 🐾</h1>
-  <p>Acesse sua conta para continuar</p>
+<main>
+  <h1>Login</h1>
 
-  <!-- FORMULÁRIO LOGIN -->
-  <form onsubmit="login(); return false;">
-    <input type="email" id="email" placeholder="E-mail" required>
-    <input type="password" id="senha" placeholder="Senha" required>
+  <p>Área ilustrativa de acesso</p>
 
-    <button type="submit" class="btn">Entrar</button>
-  </form>
+  <input type="text" placeholder="Usuário"><br><br>
+  <input type="password" placeholder="Senha"><br><br>
 
-  <!-- REDES SOCIAIS -->
-  <h3>Ou entre com:</h3>
-
-  <button class="btn" onclick="loginSocial('Instagram')">Instagram</button>
-  <button class="btn" onclick="loginSocial('Facebook')">Facebook</button>
-  <button class="btn" onclick="loginSocial('Google')">Google</button>
-
-  <!-- BOTÃO VOLTAR -->
+  <button class="btn" onclick="alert('Login ilustrativo')">Entrar</button>
   <br><br>
   <button class="btn" onclick="voltarPagina()">Voltar</button>
+</main>
 
-  <!-- RODAPÉ -->
-  <footer>
-    <div class="footer-content">
+<footer>
+  <p class="copy">© 2025 Mundo Animal</p>
+</footer>
 
-      <div class="footer-section">
-        <h3>Mundo Animal</h3>
-        <p>Curiosidades e informações sobre o reino animal.</p>
-      </div>
-
-      <div class="footer-section">
-        <h4>Menu</h4>
-        <a href="index.html">Início</a><br>
-        <a href="animais.html">Animais</a><br>
-        <a href="curiosidades.html">Curiosidades</a><br>
-        <a href="sobre.html">Sobre</a>
-      </div>
-
-      <div class="footer-section">
-        <h4>Redes Sociais</h4>
-        <a href="#">Instagram</a><br>
-        <a href="#">Facebook</a><br>
-        <a href="#">YouTube</a>
-      </div>
-
-    </div>
-
-    <p class="copy">© 2025 Mundo Animal</p>
-  </footer>
-
-  <!-- JAVASCRIPT -->
-  <script src="js/script.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
