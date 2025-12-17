@@ -8,10 +8,11 @@ Site educativo sobre animais selvagens, com curiosidades e informações.
 - Curiosidades
 - Sobre
 - Contato
+- login
 
 ## 🛠 Tecnologias usadas
-- HTML5
-- CSS3
+- HTML
+- CSS
 - JavaScript
 
 ## 📂 Estrutura
@@ -20,6 +21,6 @@ Site educativo sobre animais selvagens, com curiosidades e informações.
 - /imagens → imagens do site
 
 ## 👩‍💻 Autoras
-Andrielly & Raiara
+Andryelle & Raiara
 
 © 2025 Mundo Animal
