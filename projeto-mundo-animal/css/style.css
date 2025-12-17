@@ -126,9 +126,230 @@ input {
   border-radius: 8px;
 }
 
-.img-animal {
-  max-width: 300px;
+.img-animais {
+  width: 100%;
+  max-width: 600px;
   display: block;
   margin: 20px auto;
-  border-radius: 15px;
+}
+.img-pequena {
+  width: 150px;
+  display: block;
+  margin: 20px auto;
+}
+.img-cobra {
+  width: 120px;   /* ajuste aqui */
+  height: auto;
+}
+
+/* Tela de Login */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  text-align: center;
+}
+
+/* Título Acesso */
+.titulo-login {
+  font-size: 32px;
+  margin: 15px 0;
+}
+
+/* Inputs */
+.login-container input {
+  width: 250px;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* Botões */
+.btn {
+  width: 200px;
+  padding: 10px;
+  margin: 8px 0;
+  background-color: #1b3a57;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn:hover {
+  background-color: #1b3a57;
+} 
+.img-animais {
+  width: 70%;
+  max-width: 450px;
+  height: auto;
+  display: block;
+  margin: 30px auto;
+}
+.img-animais {
+  width: 350px;      /* TAMANHO IDEAL */
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;   /* centraliza tudo na horizontal */
+  text-align: center;
+  padding: 40px 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: center; /* centraliza o menu */
+  gap: 20px;               /* espaço entre os links */
+  padding: 15px 0;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+}
+/* Página Animais */
+.animais-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+/* Página Sobre */
+.sobre-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;   /* centraliza tudo */
+  text-align: center;
+  padding: 40px 20px;
+}
+
+/* Limita largura do texto para ficar bonito */
+.sobre-container p {
+  max-width: 600px;
+  margin-bottom: 15px;
+}
+
+/* Página Contato */
+.contato-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;     /* centraliza tudo */
+  text-align: center;
+  padding: 40px 20px;
+}
+
+/* Formulário */
+.contato-container form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+  margin-top: 20px;
+}
+
+/* Inputs e textarea */
+.contato-container input,
+.contato-container textarea {
+  padding: 10px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.btn {
+  text-decoration: none;   /* REMOVE o sublinhado */
+  padding: 12px 25px;
+  background-color: #1b3a57;
+  color: white;
+  border-radius: 8px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+/* Páginas de animais (leão, cobra, etc) */
+.animal-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+/* Imagem do animal */
+.img-animal {
+  width: 300px;
+  height: auto;
+  margin: 20px 0;
+}
+
+/* Texto */
+.animal-container p {
+  max-width: 650px;
+  margin-bottom: 15px;
+}
+
+.animal-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.img-animal {
+  width: 300px;
+  height: auto;
+  margin: 20px 0;
+}
+
+.animal-container p {
+  max-width: 650px;
+  margin-bottom: 15px;
+}
+
+.animal-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.img-animal {
+  width: 300px;
+  height: auto;
+  margin: 20px 0;
+}
+
+.animal-container p {
+  max-width: 650px;
+  margin-bottom: 15px;
+}
+
+.animal-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.img-animal {
+  width: 300px;
+  height: auto;
+  margin: 20px 0;
+}
+
+.animal-container p {
+  max-width: 650px;
+  margin-bottom: 15px;
 }
